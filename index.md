@@ -2,122 +2,48 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Vale of War
+[Main project](https://github.com/sfkpmr/ValeofWar)
 
-[Link to another page](./another-page.html).
+A multiplayer game made using JavaScript, Express.js, HTML/CSS, MongoDB and Auth0.
 
-There should be whitespace between paragraphs.
+## Challenges
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+* Learning to make a JS based server to run the game.
+* Learning how to display live data in the game.
+* Learning how to store game data in a good way.
+* Learning how to make a secure login system.
+* Learning how to display dynamic information.
 
-# Header 1
+## Solutions
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+* Studied and read documentation to settle on using Express.js as the foundation for the server, and then building the game on top of it.
+* Studied and read documentation about Socket.io to implement a way for the player to continuously be updated about the game time.
+* Learning how to use MongoDB and using it to store and retrieve data.
+* Rather than reinventing the wheel, I learned how to implement Auth0 for a secure log in system.
+* Learned to use EJS to display dynamic information.
 
-## Header 2
+# Update Site
+[Main project](https://github.com/sfkpmr/UpdateSite)
+[Scripts](https://github.com/sfkpmr/updateSite-scripts)
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+This site was a project meant to simplify finding out about the latest version about various softwares, to tell if your version was up-to-date or not.
 
-### Header 3
+## Challenges
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+* Learning to use the GitHub API to find the latest version of each project.
+* Learning to make and use a web server.
+* Learning how to use and edit JSON.
+* Learning how to display dynamic information.
+* Learning how to make an API.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+## Solutions
 
-#### Header 4
+* Studied and read documentation to settle on using Express.js as the foundation for the server, and then using it for the site.
+* Learned how to use Bash and cron to regularly find and retrieve the most recent versions of the relevant softwares.
+* Using Express.js to make an API for the data.
+* Learned to use EJS to display dynamic information.
+* Learned to make an API using Express.js to easily access the site data.
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+# Hosting
+These projects were hosted with Linux, Docker and [Caddy](https://github.com/caddyserver/caddy).
