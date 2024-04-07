@@ -24,8 +24,7 @@ A multiplayer game made using JavaScript, Express.js, HTML/CSS, MongoDB and Auth
 * Learned to use EJS to display dynamic information.
 
 # Update Site
-[Main project](https://github.com/sfkpmr/UpdateSite)
-[Scripts](https://github.com/sfkpmr/updateSite-scripts)
+[Main project](https://github.com/sfkpmr/UpdateSite) and [scripts](https://github.com/sfkpmr/updateSite-scripts)
 
 This site was a project meant to simplify finding out about the latest version about various softwares, to tell if your version was up-to-date or not.
 
