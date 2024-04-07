@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Another page
 ---
 
 # Vale of War
